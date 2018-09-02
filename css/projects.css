@@ -11,22 +11,16 @@ body {
 }
 
 .navbar {
-    /*position: fixed; !* Set the navbar to fixed position *!*/
 
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-
-.navbar-toggler {
-    /*position: fixed;*/
-
+    top: 0;
+    width: 100%;
 }
 
 nav .navbar-nav li a{
     color: coral;
 }
 
-/* Change background on mouse-over */
+
 .navbar a:hover {
     color: black;
 }
