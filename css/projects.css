@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Airbnb Cereal App";
+    src: url("../font/AirbnbCereal-Light.ttf");
+}
+
 body {
     background-image: url("../image/projects.png");
     background-size: auto;
