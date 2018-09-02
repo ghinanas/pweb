@@ -1,36 +1,59 @@
-@font-face {
-    font-family: "Airbnb Cereal App";
-    src: url("../font/AirbnbCereal-Light.ttf");
+p, .navbar a:hover {
+  color: black;
 }
 
+@font-face {
+  font-family: "Airbnb Cereal App";
+  src: url("../font/AirbnbCereal-Light.ttf");
+}
 body {
-    background-image: url("../image/projects.png");
-    background-size: auto;
-    font-family: "Airbnb Cereal App";
-
+  background: #FDD56D url("../image/About Me.png") no-repeat left top;
+  background-size: auto;
+  font-family: "Airbnb Cereal App";
 }
 
 .navbar {
-
-    top: 0;
-    width: 100%;
+  top: 0;
+  width: 100%;
 }
 
-nav .navbar-nav li a{
-    color: coral;
+nav .navbar-nav li a {
+  color: coral;
 }
 
-
-.navbar a:hover {
-    color: black;
+.mypic {
+  width: 230px;
+  height: 230px;
 }
 
-.grow:hover
-{
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    transition-duration: 1s;
-    border-color: #FA5653;
-
+h1 {
+  color: #FA5653;
+  margin-right: 30px;
 }
+
+p {
+  padding: 10px;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition-duration: 1s;
+  border-color: #FA5653;
+}
+
+.growpic:hover {
+  -webkit-transform: scale(1.21);
+  -ms-transform: scale(1.21);
+  transform: scale(1.21);
+  transition-duration: 1s;
+}
+
+.threed:hover {
+  box-shadow: 1px 1px black, 2px 2px black, 3px 3px black;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+/*# sourceMappingURL=projects.css.map */
