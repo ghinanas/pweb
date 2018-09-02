@@ -1,0 +1,54 @@
+body {
+    background: #FA5653 url("../image/contact.png") no-repeat left top;
+    background-size: auto;
+    font-family: "Airbnb Cereal App";
+
+}
+
+.navbar {
+
+    top: 0;
+    width: 100%;
+}
+
+.navbar-toggler {
+
+}
+
+nav .navbar-nav li a{
+    color: coral;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.div-bg {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+}
+
+h1 {
+    font-size: 40px;
+    color: #fa5653;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.grow:hover
+{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition-duration: 1s;
+    border-color: #FA5653;
+
+}
